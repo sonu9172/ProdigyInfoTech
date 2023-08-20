@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    justify-content: center;
+    background-color: #fff;
+    /* box-shadow: 0px 0px 3px 3px rgba(26, 188, 156, 0.4); */
+    /* background-image: url(./profile/Snapchat-526848110.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.signup{
+    width: 400px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 grey;
+}
+.signup .title{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    position: relative;
+    background-color: #eaa6f3;
+    border-radius: 5px 5px 0 0;
+    color: white;
+}
+.signup form{
+    padding: 20px 10px 20px 15px;
+}
+.signup form .row{
+    height: 40px;
+    margin-top: 10px;
+    /* background-color: aqua; */
+    position: relative;
+}
+ .signup form .row input{
+    height: 100%;
+    width: 90%;
+    padding-left: 40px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+
+} 
+form .row input:focus{
+    border-color: #16a085;
+    box-shadow: 0px 0px 3px 3px rgba(26, 188, 156, 0.4);
+} 
+.signup form .row i{
+    width: 25px;
+    height: 100%;
+    background-color: #eaa6f3;
+    position: absolute;
+    display: flex;
+    font-size: 18px;
+    color:black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0 0 5px;
+    border-radius: 2px solid #eaa6f3;
+
+}
+.signup form .btn input{
+    background-color: #eaa6f3;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 2px solid #eaa6f3;
+    padding-left: 0px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+form .btn input:hover{
+    background-color: #96f8b6;
+}
+.signup form .back{
+    margin-top:10px ;
+    padding-left: 80px;
+    position:relative;
+    display: flex;
+    /* background-color: #16a085; */
+
+    
+}
+ form .back a{
+    position: relative;
+    display: flex;
+    height: 40px;
+    width: 60%;
+    align-items:center ;
+    justify-content: center;
+    padding-left: 20px;
+    background-color: #96f8b6;
+    /* border-radius: 5px solid #16a085; */
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    border: 2px solid #16a085;
+    text-decoration: none;
+    border: none;
+}
